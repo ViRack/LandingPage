@@ -2,3 +2,65 @@
     flex-direction: column;
     background: rgb(84, 124, 175);
 }
+
+/* Block 1 */
+.top {
+    background: #1F2937;
+    display: block;
+    justify-content: center;
+}
+
+/* header */
+.top-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.header-logo {
+    text-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+}
+
+.header-links {
+    text-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+}
+
+/* description */
+
+.description {
+    display: flex-inline;
+    flex-direction: column;
+}
+
+.description-title {
+    display: flex-inline;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.description-quote {
+    display: flex-inline;
+}
+
+.image {
+    display: flex-inline;
+    height: 200px;
+    width: auto;
+}
+
+/* Block 2 */
+.information {
+    background: #dbdbdb;
+}
+
+/* Block 3 */
+.sign-up {
+    background: #E5E7EB;
+}
+
