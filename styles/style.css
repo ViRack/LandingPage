@@ -1,66 +1,108 @@
 .page {
+    display:flex;
     flex-direction: column;
-    background: rgb(84, 124, 175);
+    width: 1400px;
 }
 
-/* Block 1 */
-.top {
-    background: #1F2937;
-    display: block;
-    justify-content: center;
+.head {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-/* header */
-.top-top {
+/* Header start */
+.header {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
+    gap: 700px;
     padding-top: 10px;
 }
 
-.header-logo {
-    text-size: 24px;
-    color: #F9FAF8;
+.header-links {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-logo {
+    font-weight: 700;
 }
 
 .header-links {
-    text-size: 24px;
-    color: #F9FAF8;
-    display: flex;
+    justify-content: space-between;
 }
 
-/* description */
+/* Header end */
+/* Title start */
 
-.description {
+.intro {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 50px;
+}
+
+.intro-left {
     display: flex-inline;
     flex-direction: column;
+    justify-content: center;
+    padding-top: 35px;
 }
 
-.description-title {
-    display: flex-inline;
+.intro-title {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
-.description-quote {
+.intro-description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro-button {
+    background-color: rgb(87, 186, 243);
+    font-size: 15px;
+    border-radius: 7px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+}
+
+.intro-right {
     display: flex-inline;
 }
 
 .image {
-    display: flex-inline;
-    height: 200px;
-    width: auto;
+    border-radius: 30px;
+    width: 550px;
+    height: 300px;
 }
 
-/* Block 2 */
-.information {
-    background: #dbdbdb;
+/* Title end */
+/* body top start */
+
+.body-top {
+    background-color: #E5E7EB;
+    align-self: center;
+    justify-self: center;
 }
 
-/* Block 3 */
-.sign-up {
-    background: #E5E7EB;
-}
-
+/* body top end */
